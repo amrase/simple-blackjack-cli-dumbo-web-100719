@@ -66,5 +66,8 @@ end
 
 def runner
   # code runner here
+  welcome
+  initial_round
+  if ( hit? && display_card_total > 21 )
 end
     
